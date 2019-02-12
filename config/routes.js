@@ -23,6 +23,7 @@ module.exports.routes = {
   '/articles/list': 'articles/list',
   '/articles/add': 'articles/add',
   '/articles/edit': 'articles/edit',
+  '/articles/create': 'articles/create',
 
 
 

@@ -22,8 +22,11 @@ module.exports.routes = {
   '/': { view: 'pages/homepage' },
   '/articles/list': 'articles/list',
   '/articles/add': 'articles/add',
-  '/articles/edit': 'articles/edit',
   '/articles/create': 'articles/create',
+  '/articles/edit/:id': 'articles/edit',
+  '/articles/delete/:id': 'articles/delete',
+  '/articles/update/:id': 'articles/update',
+
 
 
 
